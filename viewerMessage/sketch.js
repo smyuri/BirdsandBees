@@ -51,7 +51,7 @@
  // we are not drawing anything!
 
   background(255);
-  textSize(40);
+  textSize(35);
   textAlign(CENTER);
   fill(0);
   text(videoMessage, windowWidth/2, windowHeight/2);
