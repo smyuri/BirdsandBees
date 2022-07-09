@@ -88,18 +88,18 @@
 
   } else if (viewers.length == 5) { 
 
-    messageToViewers = "End constitutional right to abortions. Next user must join.";
+    messageToViewers = "End constitutional rights to abortions. Reload";
 
   } else if (viewers.length == 6) { 
 
-    messageToViewers = "Reduce access to health care and reproductive care. Next user must join.";
+    messageToViewers = "Reduce access to health care and reproductive care. Reload.";
 
   } else if (viewers.length == 7) { 
 
     messageToViewers = "Women lose freedom over their bodies.";
   } else if (viewers.length > 7) { 
 
-    messageToViewers = " Only 1 more person must be on server. Leave or ask others to leave.";
+    messageToViewers = "Server overload.Leave or ask others to leave.";
   }
 
 
