@@ -84,7 +84,7 @@
     messageToViewers = "15 weeks. Next user must join.";
   } else if (viewers.length == 4) { 
 
-    messageToViewers = "Rule in favour of Missispi. Next user must join.";
+    messageToViewers = "Rule in favour of Mississippi. Next user must join.";
 
   } else if (viewers.length == 5) { 
 
@@ -96,10 +96,10 @@
 
   } else if (viewers.length == 7) { 
 
-    messageToViewers = "Another ban on women's bodies";
+    messageToViewers = "Women lose freedom over their bodies.";
   } else if (viewers.length > 7) { 
 
-    messageToViewers = " Only 1 person must be on server. Leave or ask others to leave.";
+    messageToViewers = " Only 1 more person must be on server. Leave or ask others to leave.";
   }
 
 
