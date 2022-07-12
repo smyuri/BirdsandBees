@@ -96,7 +96,7 @@
 
   } else if (viewers.length == 7) { 
 
-    messageToViewers = "Women lose freedom over their bodies.";
+    messageToViewers = "Women keep losing freedom over their bodies.";
   } else if (viewers.length > 7) { 
 
     messageToViewers = "Server overload.Leave or ask others to leave.";
