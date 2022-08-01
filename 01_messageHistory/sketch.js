@@ -93,7 +93,7 @@ function drawMessages(messageHistory) {
   for (let i = 0; i < messageHistory.length; i++) {
     
       console.log(messageHistory[i]);
-      textY= 75 * (i+1) + 500;
+      //textY= 75 * (i+1) + 500;
       text(messageHistory[i].message.messageText, windowWidth/2, 75 * (i+1) + 800);
       //if textY > 800 {
 
