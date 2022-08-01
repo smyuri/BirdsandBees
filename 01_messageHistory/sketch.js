@@ -4,7 +4,6 @@ let subKey = "sub-c-5c7c93ad-42b7-4af3-9cce-e78ea25ba5c2";
 let secretKey = "sec-c-ZmZjMTE2NWEtNzE3OS00ZWUwLWFiOGMtN2NlNDlkZDRkYmIy";
 
 let channelName = "history";
-let img;
 let imgOne;
 let you;
 
@@ -60,7 +59,7 @@ function setup() {
   
 function draw() {
 // background(0);
-image(imgOne, -windowWidth/3 , 10, img.width/4, img.height/4)
+image(imgOne, -windowWidth/3 , 10, imgOne.width/4, imgOne.height/4)
 
 }
 
