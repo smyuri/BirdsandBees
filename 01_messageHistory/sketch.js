@@ -89,8 +89,8 @@ function drawMessages(messageHistory) {
   textSize(80);
   for (let i = 0; i < messageHistory.length; i++) {
     
-      console.log(messageHistory[50]);
-      text(messageHistory[50].message.messageText, windowWidth/2, 100 * (i+1));
+      console.log(messageHistory[i]);
+      text(messageHistory[i].message.messageText, windowWidth/2, 100 * (i+1));
 
   }
 
