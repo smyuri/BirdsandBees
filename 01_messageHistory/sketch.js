@@ -15,7 +15,6 @@ var sendButton;
 let history;
 
 function preload() { 
-img= loadImage("IMG_2605.PNG");
 imgOne= loadImage("IMG_2606.PNG");
 //imgOne.style.left= "200px";
   // logic to create a random UUID
@@ -61,7 +60,6 @@ function setup() {
   
 function draw() {
 // background(0);
-image(img, 10, 10, img.width/6, img.height/6)
 image(imgOne, -windowWidth/3 , 10, img.width/4, img.height/4)
 
 }
