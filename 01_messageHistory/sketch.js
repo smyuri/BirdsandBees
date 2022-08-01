@@ -58,7 +58,7 @@ function setup() {
 }
   
 function draw() {
- background (25)
+ background (50)
 
 
 }
