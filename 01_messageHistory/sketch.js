@@ -97,7 +97,7 @@ function drawMessages(messageHistory) {
     
       console.log(messageHistory[i]);
       textY= 75 * (i+1) + 500;
-      text(messageHistory[i].message.messageText, windowWidth/2, 75 * (i+1) + 200);
+      text(messageHistory[i].message.messageText, windowWidth/2, 75 * (i+1) + 100);
       //if textY > 800 {
 
       //}
