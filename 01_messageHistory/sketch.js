@@ -59,7 +59,7 @@ function setup() {
   
 function draw() {
 // background(0);
-image(imgOne, -windowWidth/3 , 10, imgOne.width/4, imgOne.height/4)
+image(imgOne, -windowWidth/3 , , imgOne.width/4, imgOne.height/4)
 
 }
 
@@ -94,7 +94,7 @@ function drawMessages(messageHistory) {
     
       console.log(messageHistory[i]);
       textY= 75 * (i+1) + 500;
-      text(messageHistory[i].message.messageText, windowWidth/2, 75 * (i+1) + 100);
+      text(messageHistory[i].message.messageText, windowWidth/2, 75 * (i+1) + 800);
       //if textY > 800 {
 
       //}
